@@ -1,0 +1,36 @@
+table {
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    background: rgba(233, 233, 233, 0.5);
+    border: 1px solid #000000;
+    border-radius: 20px;
+    border-collapse: collapse;
+
+    width: 100%;
+
+    font-size: 1.5em;
+
+    /*display: block;*/
+    overflow-x: auto;
+
+}
+
+thead th {
+    background: #EBE9E9;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 14px;
+}
+
+.left {
+    border-radius: 20px 0 0 0;
+}
+
+.right {
+    border-radius: 0 20px 0 0;
+}
+
+tbody th, td{
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 14px;
+}
